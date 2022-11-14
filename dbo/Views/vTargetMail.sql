@@ -40,7 +40,7 @@ AS
             ELSE 1 
         END AS [BikeBuyer]
     FROM
-        [dbo].[DimCustomer] c INNER JOIN (
+        [Dimension].[DimCustomer] c INNER JOIN (
             SELECT
                 [CustomerKey]
                 ,[Region]

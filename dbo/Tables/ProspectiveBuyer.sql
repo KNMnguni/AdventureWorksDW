@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[ProspectiveBuyer] (
+﻿CREATE TABLE [Dimension].[ProspectiveBuyer] (
     [ProspectiveBuyerKey]  INT            IDENTITY (1, 1) NOT NULL,
     [ProspectAlternateKey] NVARCHAR (15)  NULL,
     [FirstName]            NVARCHAR (50)  NULL,

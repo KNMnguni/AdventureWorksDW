@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimCustomer] (
+﻿CREATE TABLE [Dimension].[DimCustomer] (
     [CustomerKey]          INT            IDENTITY (1, 1) NOT NULL,
     [GeographyKey]         INT            NULL,
     [CustomerAlternateKey] NVARCHAR (15)  NOT NULL,
@@ -29,11 +29,11 @@
     [DateFirstPurchase]    DATE           NULL,
     [CommuteDistance]      NVARCHAR (15)  NULL,
     CONSTRAINT [PK_DimCustomer_CustomerKey] PRIMARY KEY CLUSTERED ([CustomerKey] ASC),
-    CONSTRAINT [FK_DimCustomer_DimGeography] FOREIGN KEY ([GeographyKey]) REFERENCES [dbo].[DimGeography] ([GeographyKey])
+    CONSTRAINT [FK_DimCustomer_DimGeography] FOREIGN KEY ([GeographyKey]) REFERENCES [Dimension].[DimGeography] ([GeographyKey])
 );
 
 
 GO
 CREATE UNIQUE NONCLUSTERED INDEX [IX_DimCustomer_CustomerAlternateKey]
-    ON [dbo].[DimCustomer]([CustomerAlternateKey] ASC);
+    ON [Dimension].[DimCustomer]([CustomerAlternateKey] ASC);
 

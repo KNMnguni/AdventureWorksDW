@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimReseller] (
+﻿CREATE TABLE [Dimension].[DimReseller] (
     [ResellerKey]          INT           IDENTITY (1, 1) NOT NULL,
     [GeographyKey]         INT           NULL,
     [ResellerAlternateKey] NVARCHAR (15) NULL,
@@ -20,7 +20,7 @@
     [AnnualRevenue]        MONEY         NULL,
     [YearOpened]           INT           NULL,
     CONSTRAINT [PK_DimReseller_ResellerKey] PRIMARY KEY CLUSTERED ([ResellerKey] ASC),
-    CONSTRAINT [FK_DimReseller_DimGeography] FOREIGN KEY ([GeographyKey]) REFERENCES [dbo].[DimGeography] ([GeographyKey]),
+    CONSTRAINT [FK_DimReseller_DimGeography] FOREIGN KEY ([GeographyKey]) REFERENCES [Dimension].[DimGeography] ([GeographyKey]),
     CONSTRAINT [AK_DimReseller_ResellerAlternateKey] UNIQUE NONCLUSTERED ([ResellerAlternateKey] ASC)
 );
 

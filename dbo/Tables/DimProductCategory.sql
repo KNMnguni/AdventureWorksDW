@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimProductCategory] (
+﻿CREATE TABLE [Dimension].[DimProductCategory] (
     [ProductCategoryKey]          INT           IDENTITY (1, 1) NOT NULL,
     [ProductCategoryAlternateKey] INT           NULL,
     [EnglishProductCategoryName]  NVARCHAR (50) NOT NULL,

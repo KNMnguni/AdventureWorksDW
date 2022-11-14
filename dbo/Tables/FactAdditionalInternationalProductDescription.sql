@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[FactAdditionalInternationalProductDescription] (
+﻿CREATE TABLE [Fact].[FactAdditionalInternationalProductDescription] (
     [ProductKey]         INT            NOT NULL,
     [CultureName]        NVARCHAR (50)  NOT NULL,
     [ProductDescription] NVARCHAR (MAX) NOT NULL,

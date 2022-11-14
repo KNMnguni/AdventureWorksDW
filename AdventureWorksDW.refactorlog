@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Move Schema" Key="37a5b79c-56cf-48b6-9b49-61559da481f3" ChangeDateTime="11/14/2022 10:44:38">
+    <Property Name="ElementName" Value="[dbo].[DimAccount]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9f5288e7-e30d-47ee-b1f2-c93d1cca9d3e" ChangeDateTime="11/14/2022 10:45:39">
+    <Property Name="ElementName" Value="[dbo].[DimCurrency]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="30200828-2213-4b41-9a78-f98a5e8467d4" ChangeDateTime="11/14/2022 10:47:00">
+    <Property Name="ElementName" Value="[dbo].[DimCustomer]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="73adcc83-e6c6-4dc6-9330-adb8e2601ffb" ChangeDateTime="11/14/2022 10:47:37">
+    <Property Name="ElementName" Value="[dbo].[DimDate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="bf3feae8-9f69-4366-b7b7-b763b7fa2104" ChangeDateTime="11/14/2022 10:48:08">
+    <Property Name="ElementName" Value="[dbo].[DimEmployee]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="28f97a95-f959-4f57-b89b-0732c6fdf4d8" ChangeDateTime="11/14/2022 10:48:47">
+    <Property Name="ElementName" Value="[dbo].[DimDepartmentGroup]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="142c0bf1-b7f0-4c40-afff-82b8d10e6894" ChangeDateTime="11/14/2022 10:49:22">
+    <Property Name="ElementName" Value="[dbo].[DimGeography]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="fa235b3a-404b-4d59-b7b4-2b4bd0364401" ChangeDateTime="11/14/2022 10:49:43">
+    <Property Name="ElementName" Value="[dbo].[DimOrganization]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d21b3ff8-29be-4ac9-a1bb-25af0010bdc0" ChangeDateTime="11/14/2022 10:50:08">
+    <Property Name="ElementName" Value="[dbo].[DimProduct]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="836fff1b-c80e-4e06-82f6-811776801e07" ChangeDateTime="11/14/2022 10:50:39">
+    <Property Name="ElementName" Value="[dbo].[DimProductCategory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c134dd09-8089-4047-8aaa-c1315ed55645" ChangeDateTime="11/14/2022 10:51:20">
+    <Property Name="ElementName" Value="[dbo].[DimProductSubcategory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="cc1fd735-0722-4304-85b1-ccfeabe6e434" ChangeDateTime="11/14/2022 10:51:53">
+    <Property Name="ElementName" Value="[dbo].[DimPromotion]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="b4adbf56-2b30-4e1a-93f3-a2dbf4adfec7" ChangeDateTime="11/14/2022 10:52:16">
+    <Property Name="ElementName" Value="[dbo].[DimReseller]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4a03b0a3-da53-44f7-a934-e2623a035466" ChangeDateTime="11/14/2022 10:52:48">
+    <Property Name="ElementName" Value="[dbo].[DimSalesReason]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="437f6cda-e5bd-4c13-b005-9df08bfdc7e4" ChangeDateTime="11/14/2022 10:53:07">
+    <Property Name="ElementName" Value="[dbo].[DimSalesTerritory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="eb0bf110-168e-4d3c-bd0f-42b1987f3f13" ChangeDateTime="11/14/2022 10:53:54">
+    <Property Name="ElementName" Value="[dbo].[DimScenario]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c83124d8-2959-4dcc-a572-0523a311bc25" ChangeDateTime="11/14/2022 10:54:41">
+    <Property Name="ElementName" Value="[dbo].[FactAdditionalInternationalProductDescription]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="cd720b9c-9efc-45fb-9bc8-d02feb7c35f7" ChangeDateTime="11/14/2022 10:55:09">
+    <Property Name="ElementName" Value="[dbo].[FactCallCenter]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="b1ef8fa1-83b7-4328-8ebd-7535173b3a4f" ChangeDateTime="11/14/2022 10:55:57">
+    <Property Name="ElementName" Value="[dbo].[FactCurrencyRate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a6c447d5-caee-4020-9d9e-0511b78cb28e" ChangeDateTime="11/14/2022 10:56:34">
+    <Property Name="ElementName" Value="[dbo].[FactFinance]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9fc8e928-b7a3-46e9-89d4-edcce31f7702" ChangeDateTime="11/14/2022 10:57:14">
+    <Property Name="ElementName" Value="[dbo].[FactInternetSales]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="114bb95b-5834-42e6-9a01-3eb33bcee6ed" ChangeDateTime="11/14/2022 10:57:47">
+    <Property Name="ElementName" Value="[dbo].[FactInternetSalesReason]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="21585ba0-48e7-4440-b0a6-7de34ae03efa" ChangeDateTime="11/14/2022 10:58:08">
+    <Property Name="ElementName" Value="[dbo].[FactProductInventory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="225be798-8ee1-403e-aea8-c2e298eb26ac" ChangeDateTime="11/14/2022 10:58:46">
+    <Property Name="ElementName" Value="[dbo].[FactResellerSales]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="31f40b3b-fa80-4b87-8536-6e021345c79c" ChangeDateTime="11/14/2022 10:59:13">
+    <Property Name="ElementName" Value="[dbo].[FactSalesQuota]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="ad958335-fc8f-4a7f-a8d3-2225d60c7474" ChangeDateTime="11/14/2022 10:59:44">
+    <Property Name="ElementName" Value="[dbo].[FactSurveyResponse]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="bce54589-16d7-4f53-9717-0faf3f0b7133" ChangeDateTime="11/14/2022 11:00:27">
+    <Property Name="ElementName" Value="[dbo].[NewFactCurrencyRate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Fact" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3c92f0d6-393f-4042-b290-acbb0efb018a" ChangeDateTime="11/14/2022 11:00:48">
+    <Property Name="ElementName" Value="[dbo].[ProspectiveBuyer]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Dimension" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+</Operations>

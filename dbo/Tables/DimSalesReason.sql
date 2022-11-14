@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimSalesReason] (
+﻿CREATE TABLE [Dimension].[DimSalesReason] (
     [SalesReasonKey]          INT           IDENTITY (1, 1) NOT NULL,
     [SalesReasonAlternateKey] INT           NOT NULL,
     [SalesReasonName]         NVARCHAR (50) NOT NULL,

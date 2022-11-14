@@ -108,5 +108,10 @@
     <Build Include="dbo\Functions\udfMinimumDate.sql" />
     <Build Include="dbo\Functions\udfTwoDigitZeroFill.sql" />
     <Build Include="Database Triggers\ddlDatabaseTriggerLog.sql" />
+    <Build Include="Security\Dimension.sql" />
+    <Build Include="Security\Fact.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="AdventureWorksDW.refactorlog" />
   </ItemGroup>
 </Project>

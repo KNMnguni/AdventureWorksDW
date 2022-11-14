@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[NewFactCurrencyRate] (
+﻿CREATE TABLE [Fact].[NewFactCurrencyRate] (
     [AverageRate]  REAL         NULL,
     [CurrencyID]   NVARCHAR (3) NULL,
     [CurrencyDate] DATE         NULL,

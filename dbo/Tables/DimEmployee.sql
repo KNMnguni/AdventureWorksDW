@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimEmployee] (
+﻿CREATE TABLE [Dimension].[DimEmployee] (
     [EmployeeKey]                          INT             IDENTITY (1, 1) NOT NULL,
     [ParentEmployeeKey]                    INT             NULL,
     [EmployeeNationalIDAlternateKey]       NVARCHAR (15)   NULL,
@@ -31,7 +31,7 @@
     [Status]                               NVARCHAR (50)   NULL,
     [EmployeePhoto]                        VARBINARY (MAX) NULL,
     CONSTRAINT [PK_DimEmployee_EmployeeKey] PRIMARY KEY CLUSTERED ([EmployeeKey] ASC),
-    CONSTRAINT [FK_DimEmployee_DimEmployee] FOREIGN KEY ([ParentEmployeeKey]) REFERENCES [dbo].[DimEmployee] ([EmployeeKey]),
-    CONSTRAINT [FK_DimEmployee_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [dbo].[DimSalesTerritory] ([SalesTerritoryKey])
+    CONSTRAINT [FK_DimEmployee_DimEmployee] FOREIGN KEY ([ParentEmployeeKey]) REFERENCES [Dimension].[DimEmployee] ([EmployeeKey]),
+    CONSTRAINT [FK_DimEmployee_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [Dimension].[DimSalesTerritory] ([SalesTerritoryKey])
 );
 

@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[DimCurrency] (
+﻿CREATE TABLE [Dimension].[DimCurrency] (
     [CurrencyKey]          INT           IDENTITY (1, 1) NOT NULL,
     [CurrencyAlternateKey] NCHAR (3)     NOT NULL,
     [CurrencyName]         NVARCHAR (50) NOT NULL,
@@ -8,5 +8,5 @@
 
 GO
 CREATE UNIQUE NONCLUSTERED INDEX [AK_DimCurrency_CurrencyAlternateKey]
-    ON [dbo].[DimCurrency]([CurrencyAlternateKey] ASC);
+    ON [Dimension].[DimCurrency]([CurrencyAlternateKey] ASC);
 
