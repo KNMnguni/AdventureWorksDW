@@ -116,6 +116,6 @@
     <Build Include="Fact\Tables\NewFactCurrencyRate.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="AdventureWorksDW.refactorlog" />
+    <RefactorLog Include="dbo\AdventureWorksDW.refactorlog" />
   </ItemGroup>
 </Project>
