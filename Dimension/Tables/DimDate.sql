@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimDate] (
+﻿CREATE TABLE [Dimension].[Date] (
     [DateKey]              INT           NOT NULL,
     [FullDateAlternateKey] DATE          NOT NULL,
     [DayNumberOfWeek]      TINYINT       NOT NULL,
@@ -24,5 +24,5 @@
 
 GO
 CREATE UNIQUE NONCLUSTERED INDEX [AK_DimDate_FullDateAlternateKey]
-    ON [Dimension].[DimDate]([FullDateAlternateKey] ASC);
+    ON [Dimension].[Date]([FullDateAlternateKey] ASC);
 

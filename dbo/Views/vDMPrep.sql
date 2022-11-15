@@ -31,20 +31,20 @@ AS
         ,f.OrderQuantity AS Quantity
         ,f.ExtendedAmount AS Amount  
     FROM
-        [Fact].[FactInternetSales] f
-    INNER JOIN [Dimension].[DimDate] d
+        [Fact].[InternetSales] f
+    INNER JOIN [Dimension].[Date] d
         ON f.[OrderDateKey] = d.[DateKey]
-    INNER JOIN [Dimension].[DimProduct] p
+    INNER JOIN [Dimension].[Product] p
         ON f.[ProductKey] = p.[ProductKey]
-    INNER JOIN [Dimension].[DimProductSubcategory] psc
+    INNER JOIN [Dimension].[ProductSubcategory] psc
         ON p.[ProductSubcategoryKey] = psc.[ProductSubcategoryKey]
-    INNER JOIN [Dimension].[DimProductCategory] pc
+    INNER JOIN [Dimension].[ProductCategory] pc
         ON psc.[ProductCategoryKey] = pc.[ProductCategoryKey]
-    INNER JOIN [Dimension].[DimCustomer] c
+    INNER JOIN [Dimension].[Customer] c
         ON f.[CustomerKey] = c.[CustomerKey]
-    INNER JOIN [Dimension].[DimGeography] g
+    INNER JOIN [Dimension].[Geography] g
         ON c.[GeographyKey] = g.[GeographyKey]
-    INNER JOIN [Dimension].[DimSalesTerritory] s
+    INNER JOIN [Dimension].[SalesTerritory] s
         ON g.[SalesTerritoryKey] = s.[SalesTerritoryKey] 
 ;
 

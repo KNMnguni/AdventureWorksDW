@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimProduct] (
+﻿CREATE TABLE [Dimension].[Product] (
     [ProductKey]            INT             IDENTITY (1, 1) NOT NULL,
     [ProductAlternateKey]   NVARCHAR (25)   NULL,
     [ProductSubcategoryKey] INT             NULL,
@@ -36,7 +36,7 @@
     [EndDate]               DATETIME        NULL,
     [Status]                NVARCHAR (7)    NULL,
     CONSTRAINT [PK_DimProduct_ProductKey] PRIMARY KEY CLUSTERED ([ProductKey] ASC),
-    CONSTRAINT [FK_DimProduct_DimProductSubcategory] FOREIGN KEY ([ProductSubcategoryKey]) REFERENCES [Dimension].[DimProductSubcategory] ([ProductSubcategoryKey]),
+    CONSTRAINT [FK_DimProduct_DimProductSubcategory] FOREIGN KEY ([ProductSubcategoryKey]) REFERENCES [Dimension].[ProductSubcategory] ([ProductSubcategoryKey]),
     CONSTRAINT [AK_DimProduct_ProductAlternateKey_StartDate] UNIQUE NONCLUSTERED ([ProductAlternateKey] ASC, [StartDate] ASC)
 );
 

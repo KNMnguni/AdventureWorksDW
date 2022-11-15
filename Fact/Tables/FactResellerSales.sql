@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Fact].[FactResellerSales] (
+﻿CREATE TABLE [Fact].[ResellerSales] (
     [ProductKey]            INT           NOT NULL,
     [OrderDateKey]          INT           NOT NULL,
     [DueDateKey]            INT           NOT NULL,
@@ -27,14 +27,14 @@
     [DueDate]               DATETIME      NULL,
     [ShipDate]              DATETIME      NULL,
     CONSTRAINT [PK_FactResellerSales_SalesOrderNumber_SalesOrderLineNumber] PRIMARY KEY CLUSTERED ([SalesOrderNumber] ASC, [SalesOrderLineNumber] ASC),
-    CONSTRAINT [FK_FactResellerSales_DimCurrency] FOREIGN KEY ([CurrencyKey]) REFERENCES [Dimension].[DimCurrency] ([CurrencyKey]),
-    CONSTRAINT [FK_FactResellerSales_DimDate] FOREIGN KEY ([OrderDateKey]) REFERENCES [Dimension].[DimDate] ([DateKey]),
-    CONSTRAINT [FK_FactResellerSales_DimDate1] FOREIGN KEY ([DueDateKey]) REFERENCES [Dimension].[DimDate] ([DateKey]),
-    CONSTRAINT [FK_FactResellerSales_DimDate2] FOREIGN KEY ([ShipDateKey]) REFERENCES [Dimension].[DimDate] ([DateKey]),
-    CONSTRAINT [FK_FactResellerSales_DimEmployee] FOREIGN KEY ([EmployeeKey]) REFERENCES [Dimension].[DimEmployee] ([EmployeeKey]),
-    CONSTRAINT [FK_FactResellerSales_DimProduct] FOREIGN KEY ([ProductKey]) REFERENCES [Dimension].[DimProduct] ([ProductKey]),
-    CONSTRAINT [FK_FactResellerSales_DimPromotion] FOREIGN KEY ([PromotionKey]) REFERENCES [Dimension].[DimPromotion] ([PromotionKey]),
-    CONSTRAINT [FK_FactResellerSales_DimReseller] FOREIGN KEY ([ResellerKey]) REFERENCES [Dimension].[DimReseller] ([ResellerKey]),
-    CONSTRAINT [FK_FactResellerSales_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [Dimension].[DimSalesTerritory] ([SalesTerritoryKey])
+    CONSTRAINT [FK_FactResellerSales_DimCurrency] FOREIGN KEY ([CurrencyKey]) REFERENCES [Dimension].[Currency] ([CurrencyKey]),
+    CONSTRAINT [FK_FactResellerSales_DimDate] FOREIGN KEY ([OrderDateKey]) REFERENCES [Dimension].[Date] ([DateKey]),
+    CONSTRAINT [FK_FactResellerSales_DimDate1] FOREIGN KEY ([DueDateKey]) REFERENCES [Dimension].[Date] ([DateKey]),
+    CONSTRAINT [FK_FactResellerSales_DimDate2] FOREIGN KEY ([ShipDateKey]) REFERENCES [Dimension].[Date] ([DateKey]),
+    CONSTRAINT [FK_FactResellerSales_DimEmployee] FOREIGN KEY ([EmployeeKey]) REFERENCES [Dimension].[Employee] ([EmployeeKey]),
+    CONSTRAINT [FK_FactResellerSales_DimProduct] FOREIGN KEY ([ProductKey]) REFERENCES [Dimension].[Product] ([ProductKey]),
+    CONSTRAINT [FK_FactResellerSales_DimPromotion] FOREIGN KEY ([PromotionKey]) REFERENCES [Dimension].[Promotion] ([PromotionKey]),
+    CONSTRAINT [FK_FactResellerSales_DimReseller] FOREIGN KEY ([ResellerKey]) REFERENCES [Dimension].[Reseller] ([ResellerKey]),
+    CONSTRAINT [FK_FactResellerSales_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [Dimension].[SalesTerritory] ([SalesTerritoryKey])
 );
 

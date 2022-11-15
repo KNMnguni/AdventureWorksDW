@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimGeography] (
+﻿CREATE TABLE [Dimension].[Geography] (
     [GeographyKey]             INT           IDENTITY (1, 1) NOT NULL,
     [City]                     NVARCHAR (30) NULL,
     [StateProvinceCode]        NVARCHAR (3)  NULL,
@@ -11,6 +11,6 @@
     [SalesTerritoryKey]        INT           NULL,
     [IpAddressLocator]         NVARCHAR (15) NULL,
     CONSTRAINT [PK_DimGeography_GeographyKey] PRIMARY KEY CLUSTERED ([GeographyKey] ASC),
-    CONSTRAINT [FK_DimGeography_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [Dimension].[DimSalesTerritory] ([SalesTerritoryKey])
+    CONSTRAINT [FK_DimGeography_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [Dimension].[SalesTerritory] ([SalesTerritoryKey])
 );
 

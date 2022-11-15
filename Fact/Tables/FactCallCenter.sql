@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Fact].[FactCallCenter] (
+﻿CREATE TABLE [Fact].[CallCenter] (
     [FactCallCenterID]    INT           IDENTITY (1, 1) NOT NULL,
     [DateKey]             INT           NOT NULL,
     [WageType]            NVARCHAR (15) NOT NULL,
@@ -14,7 +14,7 @@
     [ServiceGrade]        FLOAT (53)    NOT NULL,
     [Date]                DATETIME      NULL,
     CONSTRAINT [PK_FactCallCenter_FactCallCenterID] PRIMARY KEY CLUSTERED ([FactCallCenterID] ASC),
-    CONSTRAINT [FK_FactCallCenter_DimDate] FOREIGN KEY ([DateKey]) REFERENCES [Dimension].[DimDate] ([DateKey]),
+    CONSTRAINT [FK_FactCallCenter_DimDate] FOREIGN KEY ([DateKey]) REFERENCES [Dimension].[Date] ([DateKey]),
     CONSTRAINT [AK_FactCallCenter_DateKey_Shift] UNIQUE NONCLUSTERED ([DateKey] ASC, [Shift] ASC)
 );
 

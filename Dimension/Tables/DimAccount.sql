@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimAccount] (
+﻿CREATE TABLE [Dimension].[Account] (
     [AccountKey]                    INT            IDENTITY (1, 1) NOT NULL,
     [ParentAccountKey]              INT            NULL,
     [AccountCodeAlternateKey]       INT            NULL,
@@ -10,6 +10,6 @@
     [ValueType]                     NVARCHAR (50)  NULL,
     [CustomMemberOptions]           NVARCHAR (200) NULL,
     CONSTRAINT [PK_DimAccount] PRIMARY KEY CLUSTERED ([AccountKey] ASC),
-    CONSTRAINT [FK_DimAccount_DimAccount] FOREIGN KEY ([ParentAccountKey]) REFERENCES [Dimension].[DimAccount] ([AccountKey])
+    CONSTRAINT [FK_DimAccount_DimAccount] FOREIGN KEY ([ParentAccountKey]) REFERENCES [Dimension].[Account] ([AccountKey])
 );
 

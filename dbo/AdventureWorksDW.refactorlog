@@ -168,4 +168,186 @@
     <Property Name="NewSchema" Value="Dimension" />
     <Property Name="IsNewSchemaExternal" Value="False" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="83c3f6eb-fccd-48a5-8f67-a5edc691d47c" ChangeDateTime="11/15/2022 10:50:28">
+    <Property Name="ElementName" Value="[Dimension].[DimAccount]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Account]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a34f42f-b61d-49ec-86ca-62d216865b03" ChangeDateTime="11/15/2022 10:50:53">
+    <Property Name="ElementName" Value="[Dimension].[DimCurrency]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Currency]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1a32c7be-e14d-493a-a84d-9cf5e2eeb8b5" ChangeDateTime="11/15/2022 10:51:22">
+    <Property Name="ElementName" Value="[Dimension].[DimCustomer]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Customer]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39f31ed7-57c1-49a0-a3d6-de5b0f4ef09d" ChangeDateTime="11/15/2022 10:51:51">
+    <Property Name="ElementName" Value="[Dimension].[DimDepartmentGroup]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[DepartmentGroup]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="de974b89-4dec-4a6f-98a8-255e5ea9d7b1" ChangeDateTime="11/15/2022 10:52:10">
+    <Property Name="ElementName" Value="[Dimension].[DimEmployee]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Employee]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b603afd0-70a2-4223-bf1c-8227e4a9b9f5" ChangeDateTime="11/15/2022 10:52:26">
+    <Property Name="ElementName" Value="[Dimension].[DimGeography]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Geography]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09b7a5a4-6324-4634-ab4f-3be43ed943c2" ChangeDateTime="11/15/2022 10:52:52">
+    <Property Name="ElementName" Value="[Dimension].[DimOrganization]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Organization]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="12cd6a7f-e90e-47eb-b11d-e18e28f0ebb5" ChangeDateTime="11/15/2022 10:53:11">
+    <Property Name="ElementName" Value="[Dimension].[DimProduct]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Product]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b7d97dc5-b8a7-401c-a4ae-3fb8417d9ff8" ChangeDateTime="11/15/2022 10:53:31">
+    <Property Name="ElementName" Value="[Dimension].[DimProductCategory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ProductCategory]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="54240484-238b-410c-93f3-ca04e5fbcb98" ChangeDateTime="11/15/2022 10:53:50">
+    <Property Name="ElementName" Value="[Dimension].[DimProductSubcategory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ProductSubcategory]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0e08554f-6a3b-4fe7-ac70-10d2b41bd3cc" ChangeDateTime="11/15/2022 10:54:08">
+    <Property Name="ElementName" Value="[Dimension].[DimPromotion]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Promotion]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e8c92fe-0062-4e0e-a33b-53ef47c6d3a4" ChangeDateTime="11/15/2022 10:54:29">
+    <Property Name="ElementName" Value="[Dimension].[DimReseller]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Reseller]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c706f5dc-0bb5-4bb6-a42c-2320dc9d73b4" ChangeDateTime="11/15/2022 10:54:42">
+    <Property Name="ElementName" Value="[Dimension].[DimSalesReason]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[SalesReason]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a2a9d267-98fa-42b2-a3ae-73abcec77a7b" ChangeDateTime="11/15/2022 10:55:00">
+    <Property Name="ElementName" Value="[Dimension].[DimSalesTerritory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[SalesTerritory]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7f5741e1-359c-44ee-b6ec-9ec8741ef680" ChangeDateTime="11/15/2022 10:56:02">
+    <Property Name="ElementName" Value="[Dimension].[DimScenario]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Dimension]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Scenario]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="172d8d7e-6dc8-4c4e-a3f6-61e8264731f1" ChangeDateTime="11/15/2022 10:56:37">
+    <Property Name="ElementName" Value="[Fact].[FactAdditionalInternationalProductDescription]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[AdditionalInternationalProductDescription]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="78afa321-e059-4148-818f-423edb238368" ChangeDateTime="11/15/2022 10:56:56">
+    <Property Name="ElementName" Value="[Fact].[FactCallCenter]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[CallCenter]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="31722e9b-04ba-48c0-bcf7-780d3da2c24d" ChangeDateTime="11/15/2022 10:57:14">
+    <Property Name="ElementName" Value="[Fact].[FactCurrencyRate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[CurrencyRate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="34f5502a-7756-438f-9b86-bfa8c3ac3126" ChangeDateTime="11/15/2022 10:57:30">
+    <Property Name="ElementName" Value="[Fact].[FactFinance]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Finance]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb05a002-089a-4425-9a80-2fdbb48ebde8" ChangeDateTime="11/15/2022 10:57:53">
+    <Property Name="ElementName" Value="[Fact].[FactInternetSales]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[InternetSales]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e8af2b83-91a2-4a36-a294-c9855a3389e9" ChangeDateTime="11/15/2022 10:58:26">
+    <Property Name="ElementName" Value="[Fact].[FactInternetSalesReason]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[InternetSalesReason]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49cebf95-bb8c-48c1-bbe7-c7a271f69663" ChangeDateTime="11/15/2022 10:58:54">
+    <Property Name="ElementName" Value="[Fact].[FactProductInventory]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ProductInventory]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3ade9936-e134-4d63-baad-021406fb9dc1" ChangeDateTime="11/15/2022 10:59:34">
+    <Property Name="ElementName" Value="[Fact].[FactResellerSales]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ResellerSales]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e4e0be4c-03c0-4db5-8725-c5f4fc4203b0" ChangeDateTime="11/15/2022 11:00:11">
+    <Property Name="ElementName" Value="[Fact].[FactSalesQuota]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[SalesQuota]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e9e3cce3-422a-43d4-abe3-6a0572e2fd01" ChangeDateTime="11/15/2022 11:01:16">
+    <Property Name="ElementName" Value="[Fact].[FactSurveyResponse]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[SurveyResponse]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b8676357-06f4-4853-af81-ced815b80228" ChangeDateTime="11/15/2022 11:01:35">
+    <Property Name="ElementName" Value="[Fact].[NewFactCurrencyRate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Fact]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[NewCurrencyRate]" />
+  </Operation>
 </Operations>

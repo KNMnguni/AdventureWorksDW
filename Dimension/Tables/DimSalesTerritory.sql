@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimSalesTerritory] (
+﻿CREATE TABLE [Dimension].[SalesTerritory] (
     [SalesTerritoryKey]          INT             IDENTITY (1, 1) NOT NULL,
     [SalesTerritoryAlternateKey] INT             NULL,
     [SalesTerritoryRegion]       NVARCHAR (50)   NOT NULL,

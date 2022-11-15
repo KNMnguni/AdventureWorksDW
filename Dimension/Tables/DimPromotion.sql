@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Dimension].[DimPromotion] (
+﻿CREATE TABLE [Dimension].[Promotion] (
     [PromotionKey]             INT            IDENTITY (1, 1) NOT NULL,
     [PromotionAlternateKey]    INT            NULL,
     [EnglishPromotionName]     NVARCHAR (255) NULL,
