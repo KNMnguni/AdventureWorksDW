@@ -68,6 +68,8 @@
     <Folder Include="Dimension\Tables" />
     <Folder Include="Fact" />
     <Folder Include="Fact\Tables" />
+    <Folder Include="Security\Schema" />
+    <Folder Include="Integration" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\DatabaseLog.sql" />
@@ -84,8 +86,6 @@
     <Build Include="dbo\Functions\udfMinimumDate.sql" />
     <Build Include="dbo\Functions\udfTwoDigitZeroFill.sql" />
     <Build Include="Database Triggers\ddlDatabaseTriggerLog.sql" />
-    <Build Include="Security\Dimension.sql" />
-    <Build Include="Security\Fact.sql" />
     <Build Include="Dimension\Tables\Account.sql" />
     <Build Include="Dimension\Tables\Currency.sql" />
     <Build Include="Dimension\Tables\Customer.sql" />
@@ -114,6 +114,9 @@
     <Build Include="Fact\Tables\SalesQuota.sql" />
     <Build Include="Fact\Tables\SurveyResponse.sql" />
     <Build Include="Fact\Tables\NewCurrencyRate.sql" />
+    <Build Include="Security\Schema\Dimension.sql" />
+    <Build Include="Security\Schema\Fact.sql" />
+    <Build Include="Security\Schema\Integration.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="dbo\AdventureWorksDW.refactorlog" />
